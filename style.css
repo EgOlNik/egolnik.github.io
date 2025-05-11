@@ -1,0 +1,304 @@
+@font-face {
+    font-family: 'Panton Regular';
+    src: url('fonts/Panton-Regular.eot');
+    src: url('fonts/Panton-Regular.eot?#iefix') format('embedded-opentype'),
+    url('fonts/Panton-Regular.woff') format('woff'),
+    url('fonts/Panton-Regular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+    }
+
+*{
+    box-sizing: border-box;
+    font-family: 'Panton Regular';
+}
+
+
+
+html {
+   /*font-family: 'Panton Regular';*/
+   /*font-family: 'times new roman';*/
+}
+
+body {
+    background-color: rgb(255, 255, 255);
+  /*font-family: 'Panton Regular';
+   /*font-family: 'times new roman';*/
+}
+
+h1,h2,h3,h4,h5,h6 {
+    color: rgb(91, 153, 107);
+    text-align: center;
+}
+
+
+
+p {
+    font-family: Panton Regular;
+    font-size: 18px;
+}
+
+header {
+    text-align: center;
+    background: #6499c8;
+}
+
+.logo_text {
+    font-size: 80px;
+    font-family: 'Oswald'; 
+    font-weight: bold; 
+    font-style: normal;
+    
+}
+
+.img_logo{
+    margin: 0 auto;
+    width: 130px;
+    height: 130px;
+}
+
+.foto {
+    width: 100%;
+}
+
+/*меню*/
+nav{
+    /*: 0 auto;*/
+    
+    display: inline-block;
+    width: 100%;
+    text-align: center;
+    /*padding: 10px;*/
+    background-color: rgb(255, 255, 255);*/
+}
+
+.ul_nav li {
+   display: inline-block;
+    padding: 0px;
+    margin-block-start: 0px;
+    margin-block-end: 0px;
+    list-style-type: none;
+}
+
+li a{
+    /*display: inline-block;*/
+    margin: 0px 5px 0px 5px;
+    /*background-color: rgb(255, 255, 255);*/
+    padding: 16px 50px 16px 50px;
+    text-decoration: none;
+    /*border: 1px solid #665544 ;
+    /*border-radius: 5px;
+    box-shadow: 2px 2px 3px rgba(0, 0, 0, 0.3);*/ 
+}
+
+li a:hover {
+    background-color: rgb(168, 168, 168);
+    color: black;
+}
+li a:active {
+    background-color: #818181;
+}
+
+
+.a_nav {
+    /*text-decoration: none;*/
+    font-size: 20px;
+    /*font-weight: bold;*/
+    color: rgb(0, 0, 0);
+    text-decoration-line: none;
+    text-decoration-color: black;
+}
+
+/*Блок формы бронирования*/
+.box-zakaz {
+    height: 150px;
+    background-color: rgb(63, 124, 10);
+    text-align: center;
+    input {
+        height: 50px;
+        width: 200px;
+        border-radius: 5px;
+        border: none;
+        background-color: #fff;
+        margin-left: 15px;
+        padding: 0px 20px;
+        font-size: 16px;
+        font-weight: 300;
+        color: #4b4b4b;
+    } 
+}
+
+button {
+    height: 50px;
+    width: 200px;
+    border-radius: 5px;
+    border: none;
+    background-color: rgb(188, 7, 7);
+    color:#fff;
+    font-size: 16px;
+    font-weight: 300;
+    margin-left: 15px;
+    
+
+}
+
+.box-zakaz h2 {
+    color: #fff;
+    margin: 10px 0px 20px 0px;
+}
+
+
+
+
+/*услуги в боксе*/
+
+.uslugi1 {
+    display: flex;
+    justify-content: space-around;
+}
+
+.box1 {
+    border: 1px solid #665544 ;
+    border-radius: 5px;
+    width: 30%;
+    padding: 20px;
+    text-align: center;
+    margin: 20px;
+}
+
+.box1 img {
+    width: 90%;
+    /*height: 200px;*/
+
+}
+
+/*стиль кнопки*/
+a.green{
+    border-radius: 4px;
+    -webkit-box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.2), 0 1px 2px rgba(0, 0, 0, 0.08);
+    -moz-box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.2), 0 1px 2px rgba(0, 0, 0, 0.08);
+    box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.2), 0 1px 2px rgba(0, 0, 0, 0.08);
+    color: #fff;
+    display:block;
+    width:100px;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14px;
+    padding: 8px 16px;
+    margin: 20px auto;
+    text-decoration: none;
+    text-shadow: 0 1px 1px rgba(0, 0, 0, 0.075);
+    -webkit-transition: background-color 0.1s linear;
+    -moz-transition: background-color 0.1s linear;
+    -o-transition: background-color 0.1s linear;
+    transition: background-color 0.1s linear;        
+    }
+    a.green {
+    background-color: rgb( 43, 153, 91 );
+    border: 1px solid rgb( 33, 126, 74 );
+    }
+            
+    a.green:hover {
+    background-color: rgb( 75, 183, 141 );
+    }
+
+
+/*О нас*/
+.komplex-text {
+    /*display: flex;
+    justify-content: center;
+    /*width: 80%;*/
+    text-align: center;
+}
+
+.gallery {
+    display: flex;
+    flex-wrap: wrap; 
+    justify-content: center; 
+    gap: 10px;
+    /*margin: 50px;*/
+
+}
+
+.gallery img {
+    width: 350px;
+    height: 250px;
+}
+/*.img-gallery {
+    flex-basis: 350px;
+    
+}*/
+ /*иконки с описанием дополненительных услуг*/
+.pic-info {
+    height: 400px;
+    padding: 20px;
+    margin: 40px 0px 0px 0px;
+    background: url('images/prud-info.jpg') center center/cover no-repeat;
+}
+
+.pic-info h2 {
+    color: #fff;
+}
+
+.icon {
+    height: 100px; 
+    width: 100px;
+}
+
+.icon-item {
+    display: flex;
+    justify-content: center;
+}
+
+.pic-block {
+    width: 204px;
+}
+
+.icon-round {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+    width: 150px;
+    height: 150px;
+    background-color: rgb(255, 255, 255);
+    border-radius: 100%;
+}
+
+.icon-text {
+    margin-top: 25px;
+    text-align: center;
+    color: aliceblue;
+    font-family: Panton Regular;
+    font-size: 17px;
+    font-weight: 300;
+}
+
+.footer {
+    height: 200px;
+    padding: 20px;
+    margin: 0px;
+    background: #000000;
+}
+
+.futer-list {
+    display: flex;
+    font-size: 20px;
+    color: #fff;
+   
+   
+}
+
+.futer-list-item li{
+    list-style-type: none;
+    
+}
+
+.futer-list-item {
+    padding: 0px 50px 0px 50px;
+}
+
+.autor {
+    text-align: center;
+    color: #fff;
+}
